@@ -36,7 +36,7 @@ pipeline {
                     sh 'npm version $NPM_VERSION_NUMBER'
                     sh 'npm run lint'
                     sh 'npm run build'
-                    #sh 'npm publish'
+                    sh 'npm publish'
                 }
             }
         }
