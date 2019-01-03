@@ -1,7 +1,9 @@
-
+<%
+    var genName = design.MasterDesign[0].name.replace('gen-', '');
+%>
 {
-    "name": "@kurlytail/gen-sgen",
-    "description": "SGEN project generator",
+    "name": "@kurlytail/gen-<%=genName%>",
+    "description": "<%=genName.toUpperCase()%> project generator",
     "version": "0.0.1",
     "devDependencies": {
         "babel-cli": "^6.26.0",
@@ -61,6 +63,6 @@
         "eslint-plugin-jest": "^22.1.2"
     },
     "bin": {
-        "sgen-sgen": "scripts/sgen-sgen.sh"
+        "sgen-<%=genName%>": "scripts/sgen-<%=genName%>.sh"
     }
 }

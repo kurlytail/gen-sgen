@@ -1,0 +1,41 @@
+{
+    ".babelrc": {
+        "template": ".babelrc._"
+    },
+    ".editorconfig": {
+        "template": ".editorconfig._"
+    },
+    ".eslintignore": {
+        "template": ".eslintignore._"
+    },
+    ".eslintrc.js": {
+        "template": ".eslintrc.js._"
+    },
+    ".gitignore": {
+        "template": ".gitignore._"
+    },
+    ".npmignore": {
+        "template": ".npmignore._"
+    },
+    ".prettierrc": {
+        "template": ".prettierrc._"
+    },
+    "Jenkinsfile": {
+        "template": "Jenkinsfile._"
+    },
+    "package.json": {
+        "template": "package.json._"
+    },
+    "README.md": {
+        "template": "README.md._"
+    },
+    "src/js/__tests__/integration.js": {
+        "template": "src/js/__tests__/integration.js._"
+    },
+    "src/test/fixture/design.js": {
+        "template": "src/test/fixture/design.js._"
+    },
+    "scripts/sgen-<%=design.MasterDesign[0].name.replace('gen-', '')%>.sh": {
+        "template": "scripts/sgen.sh._"
+    }
+}

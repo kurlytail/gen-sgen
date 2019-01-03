@@ -1,0 +1,4 @@
+<%
+    var genName = design.MasterDesign[0].name.replace('gen-', '');
+%>
+# gen-<%=genName%>
