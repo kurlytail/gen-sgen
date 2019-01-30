@@ -60,7 +60,7 @@
         "clean": "rimraf ./docs ./dist ./coverage test-report.xml"
     },
     "dependencies": {
-        "@kurlytail/gen-lib": "^0.0.42",
+        "@kurlytail/gen-lib": "^0.0.43",
         "nodegit": "^0.24.0"
     },
     "bin": {
