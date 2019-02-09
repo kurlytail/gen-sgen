@@ -2,72 +2,72 @@
 
 exports[`# integration test ## should generate design 1`] = `
 "info: Initializing git repository testoutput/.git
-info: Generating testoutput/.babelrc from template templates/.babelrc._
-info: Generating testoutput/.editorconfig from template templates/.editorconfig._
-info: Generating testoutput/.eslintignore from template templates/.eslintignore._
-info: Generating testoutput/.eslintrc.js from template templates/.eslintrc.js._
-info: Generating testoutput/.gitignore from template templates/.gitignore._
-info: Generating testoutput/.npmignore from template templates/.npmignore._
-info: Generating testoutput/.prettierrc from template templates/.prettierrc._
-info: Generating testoutput/Jenkinsfile from template templates/Jenkinsfile._
-info: Generating testoutput/package.json from template templates/package.json._
-info: Generating testoutput/README.md from template templates/README.md._
-info: Generating testoutput/src/js/__tests__/integration.js from template templates/src/js/__tests__/integration.js._
-info: Generating testoutput/src/test/fixture/design.js from template templates/src/test/fixture/design.js._
-info: Generating testoutput/scripts/sgen-fixture.sh from template templates/scripts/sgen.sh._
+info: Generated testoutput/.babelrc from template templates/.babelrc._
+info: Generated testoutput/.editorconfig from template templates/.editorconfig._
+info: Generated testoutput/.eslintignore from template templates/.eslintignore._
+info: Generated testoutput/.eslintrc.js from template templates/.eslintrc.js._
+info: Generated testoutput/.gitignore from template templates/.gitignore._
+info: Generated testoutput/.npmignore from template templates/.npmignore._
+info: Generated testoutput/.prettierrc from template templates/.prettierrc._
+info: Generated testoutput/Jenkinsfile from template templates/Jenkinsfile._
+info: Generated testoutput/package.json from template templates/package.json._
+info: Generated testoutput/README.md from template templates/README.md._
+info: Generated testoutput/src/js/__tests__/integration.js from template templates/src/js/__tests__/integration.js._
+info: Generated testoutput/src/test/fixture/design.js from template templates/src/test/fixture/design.js._
+info: Generated testoutput/scripts/sgen-fixture.sh from template templates/scripts/sgen.sh._
 info: Committed generated files
 info: Attempting to use branch master-sgen-generated
 info: Creating new branch master-sgen-generated
-warn: Checkout out branch master
-warn: Checkout out branch master
+warn: Checkout branch master
+warn: Checkout branch master
 info: sgen is done
 "
 `;
 
 exports[`# integration test ## should generate design and run sgen commands 1`] = `
 "info: Initializing git repository testoutput/.git
-info: Generating testoutput/.babelrc from template templates/.babelrc._
-info: Generating testoutput/.editorconfig from template templates/.editorconfig._
-info: Generating testoutput/.eslintignore from template templates/.eslintignore._
-info: Generating testoutput/.eslintrc.js from template templates/.eslintrc.js._
-info: Generating testoutput/.gitignore from template templates/.gitignore._
-info: Generating testoutput/.npmignore from template templates/.npmignore._
-info: Generating testoutput/.prettierrc from template templates/.prettierrc._
-info: Generating testoutput/Jenkinsfile from template templates/Jenkinsfile._
-info: Generating testoutput/package.json from template templates/package.json._
-info: Generating testoutput/README.md from template templates/README.md._
-info: Generating testoutput/src/js/__tests__/integration.js from template templates/src/js/__tests__/integration.js._
-info: Generating testoutput/src/test/fixture/design.js from template templates/src/test/fixture/design.js._
-info: Generating testoutput/scripts/sgen-fixture.sh from template templates/scripts/sgen.sh._
+info: Generated testoutput/.babelrc from template templates/.babelrc._
+info: Generated testoutput/.editorconfig from template templates/.editorconfig._
+info: Generated testoutput/.eslintignore from template templates/.eslintignore._
+info: Generated testoutput/.eslintrc.js from template templates/.eslintrc.js._
+info: Generated testoutput/.gitignore from template templates/.gitignore._
+info: Generated testoutput/.npmignore from template templates/.npmignore._
+info: Generated testoutput/.prettierrc from template templates/.prettierrc._
+info: Generated testoutput/Jenkinsfile from template templates/Jenkinsfile._
+info: Generated testoutput/package.json from template templates/package.json._
+info: Generated testoutput/README.md from template templates/README.md._
+info: Generated testoutput/src/js/__tests__/integration.js from template templates/src/js/__tests__/integration.js._
+info: Generated testoutput/src/test/fixture/design.js from template templates/src/test/fixture/design.js._
+info: Generated testoutput/scripts/sgen-fixture.sh from template templates/scripts/sgen.sh._
 info: Committed generated files
 info: Attempting to use branch master-sgen-generated
 info: Creating new branch master-sgen-generated
-warn: Checkout out branch master
-warn: Checkout out branch master
+warn: Checkout branch master
+warn: Checkout branch master
 info: sgen is done
 "
 `;
 
 exports[`# integration test ## should generate design with merge 1`] = `
 "info: Initializing git repository testoutput/.git
-info: Generating testoutput/.babelrc from template templates/.babelrc._
-info: Generating testoutput/.editorconfig from template templates/.editorconfig._
-info: Generating testoutput/.eslintignore from template templates/.eslintignore._
-info: Generating testoutput/.eslintrc.js from template templates/.eslintrc.js._
-info: Generating testoutput/.gitignore from template templates/.gitignore._
-info: Generating testoutput/.npmignore from template templates/.npmignore._
-info: Generating testoutput/.prettierrc from template templates/.prettierrc._
-info: Generating testoutput/Jenkinsfile from template templates/Jenkinsfile._
-info: Generating testoutput/package.json from template templates/package.json._
-info: Generating testoutput/README.md from template templates/README.md._
-info: Generating testoutput/src/js/__tests__/integration.js from template templates/src/js/__tests__/integration.js._
-info: Generating testoutput/src/test/fixture/design.js from template templates/src/test/fixture/design.js._
-info: Generating testoutput/scripts/sgen-fixture.sh from template templates/scripts/sgen.sh._
+info: Generated testoutput/.babelrc from template templates/.babelrc._
+info: Generated testoutput/.editorconfig from template templates/.editorconfig._
+info: Generated testoutput/.eslintignore from template templates/.eslintignore._
+info: Generated testoutput/.eslintrc.js from template templates/.eslintrc.js._
+info: Generated testoutput/.gitignore from template templates/.gitignore._
+info: Generated testoutput/.npmignore from template templates/.npmignore._
+info: Generated testoutput/.prettierrc from template templates/.prettierrc._
+info: Generated testoutput/Jenkinsfile from template templates/Jenkinsfile._
+info: Generated testoutput/package.json from template templates/package.json._
+info: Generated testoutput/README.md from template templates/README.md._
+info: Generated testoutput/src/js/__tests__/integration.js from template templates/src/js/__tests__/integration.js._
+info: Generated testoutput/src/test/fixture/design.js from template templates/src/test/fixture/design.js._
+info: Generated testoutput/scripts/sgen-fixture.sh from template templates/scripts/sgen.sh._
 info: Committed generated files
 info: Attempting to use branch master-sgen-generated
 info: Creating new branch master-sgen-generated
-warn: Checkout out branch master
-warn: Checkout out branch master
+warn: Checkout branch master
+warn: Checkout branch master
 info: sgen is done
 "
 `;
@@ -76,24 +76,24 @@ exports[`# integration test ## should generate design with merge 2`] = `
 "info: Opening git repository testoutput/.git
 warn: Ignoring error Error: cannot stash changes - there is nothing to stash.
 info: Attempting to use branch master-sgen-generated
-warn: Checkout out branch master-sgen-generated
-info: Generating testoutput/.babelrc from template templates/.babelrc._
-info: Generating testoutput/.editorconfig from template templates/.editorconfig._
-info: Generating testoutput/.eslintignore from template templates/.eslintignore._
-info: Generating testoutput/.eslintrc.js from template templates/.eslintrc.js._
-info: Generating testoutput/.gitignore from template templates/.gitignore._
-info: Generating testoutput/.npmignore from template templates/.npmignore._
-info: Generating testoutput/.prettierrc from template templates/.prettierrc._
-info: Generating testoutput/Jenkinsfile from template templates/Jenkinsfile._
-info: Generating testoutput/package.json from template templates/package.json._
-info: Generating testoutput/README.md from template templates/README.md._
-info: Generating testoutput/src/js/__tests__/integration.js from template templates/src/js/__tests__/integration.js._
-info: Generating testoutput/src/test/fixture/design.js from template templates/src/test/fixture/design.js._
-info: Generating testoutput/scripts/sgen-fixture.sh from template templates/scripts/sgen.sh._
-warn: Checkout out branch master-sgen-generated
-warn: Checkout out branch master-sgen-generated
+warn: Checkout branch master-sgen-generated
+info: Generated testoutput/.babelrc from template templates/.babelrc._
+info: Generated testoutput/.editorconfig from template templates/.editorconfig._
+info: Generated testoutput/.eslintignore from template templates/.eslintignore._
+info: Generated testoutput/.eslintrc.js from template templates/.eslintrc.js._
+info: Generated testoutput/.gitignore from template templates/.gitignore._
+info: Generated testoutput/.npmignore from template templates/.npmignore._
+info: Generated testoutput/.prettierrc from template templates/.prettierrc._
+info: Generated testoutput/Jenkinsfile from template templates/Jenkinsfile._
+info: Generated testoutput/package.json from template templates/package.json._
+info: Generated testoutput/README.md from template templates/README.md._
+info: Generated testoutput/src/js/__tests__/integration.js from template templates/src/js/__tests__/integration.js._
+info: Generated testoutput/src/test/fixture/design.js from template templates/src/test/fixture/design.js._
+info: Generated testoutput/scripts/sgen-fixture.sh from template templates/scripts/sgen.sh._
+warn: Checkout branch master-sgen-generated
+warn: Checkout branch master-sgen-generated
 warn: Nothing changed in generated files
-warn: Checkout out branch master
+warn: Checkout branch master
 info: sgen is done
 "
 `;
@@ -107,7 +107,7 @@ Options:
   -d, --design=ARG+    design files
   -e, --extension=ARG+ extension directories or files
   -o, --output=ARG     output directory for generated files
-      --overwrite=ARG  Overwrite modes, can be one of skip, regen, error or merge                         (default: skip)
+      --overwrite=ARG  Overwrite modes, can be one of skip, regen, error                                  (default: error)
       --forceOverwrite Override overwrite flags in the generator map with the one provided on --overwrite
   -h, --help           display this help
 "
