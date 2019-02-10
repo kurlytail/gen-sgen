@@ -57,7 +57,7 @@
         "clean": "rimraf ./docs ./dist ./coverage test-report.xml"
     },
     "dependencies": {
-        "@kurlytail/gen-lib": "^0.0.57"
+        "@kurlytail/gen-lib": "^0.0.58"
     },
     "bin": {
         "sgen-sgen": "scripts/sgen-sgen.sh"
