@@ -14,7 +14,7 @@ info: Generated testoutput/Jenkinsfile from template templates/Jenkinsfile._
 info: Generated testoutput/package.json from template templates/package.json._
 info: Generated testoutput/README.md from template templates/README.md._
 info: Generated testoutput/src/js/__tests__/integration.js from template templates/src/js/__tests__/integration.js._
-info: Generated testoutput/src/test/fixture/design.js from template templates/src/test/fixture/design.js._
+info: Generated testoutput/src/test/fixture/design.json from template templates/src/test/fixture/design.json._
 info: Generated testoutput/scripts/sgen-fixture.sh from template templates/scripts/sgen.sh._
 info: Committed generated files
 info: Attempting to use branch master-sgen-generated
@@ -39,7 +39,7 @@ info: Generated testoutput/Jenkinsfile from template templates/Jenkinsfile._
 info: Generated testoutput/package.json from template templates/package.json._
 info: Generated testoutput/README.md from template templates/README.md._
 info: Generated testoutput/src/js/__tests__/integration.js from template templates/src/js/__tests__/integration.js._
-info: Generated testoutput/src/test/fixture/design.js from template templates/src/test/fixture/design.js._
+info: Generated testoutput/src/test/fixture/design.json from template templates/src/test/fixture/design.json._
 info: Generated testoutput/scripts/sgen-fixture.sh from template templates/scripts/sgen.sh._
 info: Committed generated files
 info: Attempting to use branch master-sgen-generated
@@ -64,7 +64,7 @@ info: Generated testoutput/Jenkinsfile from template templates/Jenkinsfile._
 info: Generated testoutput/package.json from template templates/package.json._
 info: Generated testoutput/README.md from template templates/README.md._
 info: Generated testoutput/src/js/__tests__/integration.js from template templates/src/js/__tests__/integration.js._
-info: Generated testoutput/src/test/fixture/design.js from template templates/src/test/fixture/design.js._
+info: Generated testoutput/src/test/fixture/design.json from template templates/src/test/fixture/design.json._
 info: Generated testoutput/scripts/sgen-fixture.sh from template templates/scripts/sgen.sh._
 info: Committed generated files
 info: Attempting to use branch master-sgen-generated
@@ -92,7 +92,7 @@ info: Generated testoutput/Jenkinsfile from template templates/Jenkinsfile._
 info: Generated testoutput/package.json from template templates/package.json._
 info: Generated testoutput/README.md from template templates/README.md._
 info: Generated testoutput/src/js/__tests__/integration.js from template templates/src/js/__tests__/integration.js._
-info: Generated testoutput/src/test/fixture/design.js from template templates/src/test/fixture/design.js._
+info: Generated testoutput/src/test/fixture/design.json from template templates/src/test/fixture/design.json._
 info: Generated testoutput/scripts/sgen-fixture.sh from template templates/scripts/sgen.sh._
 warn: Checkout branch master-sgen-generated
 warn: Checkout branch master-sgen-generated

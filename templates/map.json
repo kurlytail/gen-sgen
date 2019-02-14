@@ -32,8 +32,8 @@
     "src/js/__tests__/integration.js": {
         "template": "src/js/__tests__/integration.js._"
     },
-    "src/test/fixture/design.js": {
-        "template": "src/test/fixture/design.js._"
+    "src/test/fixture/design.json": {
+        "template": "src/test/fixture/design.json._"
     },
     "scripts/sgen-<%=design.MasterDesign[0].name.replace('gen-', '')%>.sh": {
         "template": "scripts/sgen.sh._"
