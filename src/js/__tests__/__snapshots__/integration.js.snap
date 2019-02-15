@@ -3,13 +3,13 @@
 exports[`# integration test ## should generate design 1`] = `
 "info: loading map templates/map.json
 info: Initializing git repository testoutput/.git
+info: Generated testoutput/.prettierrc from template templates/.prettierrc._
 info: Generated testoutput/.babelrc from template templates/.babelrc._
 info: Generated testoutput/.editorconfig from template templates/.editorconfig._
 info: Generated testoutput/.eslintignore from template templates/.eslintignore._
 info: Generated testoutput/.eslintrc.js from template templates/.eslintrc.js._
 info: Generated testoutput/.gitignore from template templates/.gitignore._
 info: Generated testoutput/.npmignore from template templates/.npmignore._
-info: Generated testoutput/.prettierrc from template templates/.prettierrc._
 info: Generated testoutput/Jenkinsfile from template templates/Jenkinsfile._
 info: Generated testoutput/package.json from template templates/package.json._
 info: Generated testoutput/README.md from template templates/README.md._
@@ -28,13 +28,13 @@ info: sgen is done
 exports[`# integration test ## should generate design and run sgen commands 1`] = `
 "info: loading map templates/map.json
 info: Initializing git repository testoutput/.git
+info: Generated testoutput/.prettierrc from template templates/.prettierrc._
 info: Generated testoutput/.babelrc from template templates/.babelrc._
 info: Generated testoutput/.editorconfig from template templates/.editorconfig._
 info: Generated testoutput/.eslintignore from template templates/.eslintignore._
 info: Generated testoutput/.eslintrc.js from template templates/.eslintrc.js._
 info: Generated testoutput/.gitignore from template templates/.gitignore._
 info: Generated testoutput/.npmignore from template templates/.npmignore._
-info: Generated testoutput/.prettierrc from template templates/.prettierrc._
 info: Generated testoutput/Jenkinsfile from template templates/Jenkinsfile._
 info: Generated testoutput/package.json from template templates/package.json._
 info: Generated testoutput/README.md from template templates/README.md._
@@ -53,13 +53,13 @@ info: sgen is done
 exports[`# integration test ## should generate design with merge 1`] = `
 "info: loading map templates/map.json
 info: Initializing git repository testoutput/.git
+info: Generated testoutput/.prettierrc from template templates/.prettierrc._
 info: Generated testoutput/.babelrc from template templates/.babelrc._
 info: Generated testoutput/.editorconfig from template templates/.editorconfig._
 info: Generated testoutput/.eslintignore from template templates/.eslintignore._
 info: Generated testoutput/.eslintrc.js from template templates/.eslintrc.js._
 info: Generated testoutput/.gitignore from template templates/.gitignore._
 info: Generated testoutput/.npmignore from template templates/.npmignore._
-info: Generated testoutput/.prettierrc from template templates/.prettierrc._
 info: Generated testoutput/Jenkinsfile from template templates/Jenkinsfile._
 info: Generated testoutput/package.json from template templates/package.json._
 info: Generated testoutput/README.md from template templates/README.md._
@@ -81,13 +81,13 @@ info: Opening git repository testoutput/.git
 warn: Ignoring error Error: cannot stash changes - there is nothing to stash.
 info: Attempting to use branch master-sgen-generated
 warn: Checkout branch master-sgen-generated
+info: Generated testoutput/.prettierrc from template templates/.prettierrc._
 info: Generated testoutput/.babelrc from template templates/.babelrc._
 info: Generated testoutput/.editorconfig from template templates/.editorconfig._
 info: Generated testoutput/.eslintignore from template templates/.eslintignore._
 info: Generated testoutput/.eslintrc.js from template templates/.eslintrc.js._
 info: Generated testoutput/.gitignore from template templates/.gitignore._
 info: Generated testoutput/.npmignore from template templates/.npmignore._
-info: Generated testoutput/.prettierrc from template templates/.prettierrc._
 info: Generated testoutput/Jenkinsfile from template templates/Jenkinsfile._
 info: Generated testoutput/package.json from template templates/package.json._
 info: Generated testoutput/README.md from template templates/README.md._
