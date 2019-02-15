@@ -1,4 +1,7 @@
 {
+    ".prettierrc": {
+        "template": ".prettierrc._"
+    },
     ".babelrc": {
         "template": ".babelrc._"
     },
@@ -16,9 +19,6 @@
     },
     ".npmignore": {
         "template": ".npmignore._"
-    },
-    ".prettierrc": {
-        "template": ".prettierrc._"
     },
     "Jenkinsfile": {
         "template": "Jenkinsfile._"
