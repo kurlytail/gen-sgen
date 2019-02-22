@@ -37,5 +37,11 @@
     },
     "scripts/sgen-<%=design.MasterDesign[0].name.replace('gen-', '')%>.sh": {
         "template": "scripts/sgen.sh._"
+    },
+    "templates/map.json": {
+        "template": "templates/map.json._"
+    },
+    "templates/.prettierrc": {
+        "template": "templates/.prettierrc._"
     }
 }
