@@ -17,7 +17,7 @@ info: Generated testoutput/src/js/__tests__/integration.js from template templat
 info: Generated testoutput/src/test/fixture/design.json from template templates/src/test/fixture/design.json._
 info: Generated testoutput/scripts/sgen-fixture.sh from template templates/scripts/sgen.sh._
 info: Generated testoutput/templates/map.json from template templates/templates/map.json._
-info: Generated testoutput/templates/.prettierrc from template templates/templates/.prettierrc._
+info: Generated testoutput/templates/.prettierrc._ from template templates/templates/.prettierrc._
 info: Committed generated files
 info: Attempting to use branch master-sgen-generated
 info: Creating new branch master-sgen-generated
@@ -44,7 +44,7 @@ info: Generated testoutput/src/js/__tests__/integration.js from template templat
 info: Generated testoutput/src/test/fixture/design.json from template templates/src/test/fixture/design.json._
 info: Generated testoutput/scripts/sgen-fixture.sh from template templates/scripts/sgen.sh._
 info: Generated testoutput/templates/map.json from template templates/templates/map.json._
-info: Generated testoutput/templates/.prettierrc from template templates/templates/.prettierrc._
+info: Generated testoutput/templates/.prettierrc._ from template templates/templates/.prettierrc._
 info: Committed generated files
 info: Attempting to use branch master-sgen-generated
 info: Creating new branch master-sgen-generated
@@ -71,7 +71,7 @@ info: Generated testoutput/src/js/__tests__/integration.js from template templat
 info: Generated testoutput/src/test/fixture/design.json from template templates/src/test/fixture/design.json._
 info: Generated testoutput/scripts/sgen-fixture.sh from template templates/scripts/sgen.sh._
 info: Generated testoutput/templates/map.json from template templates/templates/map.json._
-info: Generated testoutput/templates/.prettierrc from template templates/templates/.prettierrc._
+info: Generated testoutput/templates/.prettierrc._ from template templates/templates/.prettierrc._
 info: Committed generated files
 info: Attempting to use branch master-sgen-generated
 info: Creating new branch master-sgen-generated
@@ -101,7 +101,7 @@ info: Generated testoutput/src/js/__tests__/integration.js from template templat
 info: Generated testoutput/src/test/fixture/design.json from template templates/src/test/fixture/design.json._
 info: Generated testoutput/scripts/sgen-fixture.sh from template templates/scripts/sgen.sh._
 info: Generated testoutput/templates/map.json from template templates/templates/map.json._
-info: Generated testoutput/templates/.prettierrc from template templates/templates/.prettierrc._
+info: Generated testoutput/templates/.prettierrc._ from template templates/templates/.prettierrc._
 warn: Checkout branch master-sgen-generated
 warn: Checkout branch master-sgen-generated
 warn: Nothing changed in generated files
