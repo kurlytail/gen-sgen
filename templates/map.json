@@ -41,7 +41,7 @@
     "templates/map.json": {
         "template": "templates/map.json._"
     },
-    "templates/.prettierrc": {
+    "templates/.prettierrc._": {
         "template": "templates/.prettierrc._"
     }
 }
