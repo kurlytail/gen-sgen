@@ -43,5 +43,8 @@
     },
     "templates/.prettierrc._": {
         "template": "templates/.prettierrc._"
+    },
+    "templates/.flowconfig_": {
+        "template": ".flowconfig._"
     }
 }
