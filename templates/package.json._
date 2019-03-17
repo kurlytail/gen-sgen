@@ -5,6 +5,7 @@
     "name": "@kurlytail/gen-<%=genName%>",
     "description": "<%=genName.toUpperCase()%> project generator",
     "version": "0.0.1",
+    "main": "dist/<%=genName%>.min.js",
     "devDependencies": {
         "babel-cli": "^6.26.0",
         "babel-core": "^6.26.0",
