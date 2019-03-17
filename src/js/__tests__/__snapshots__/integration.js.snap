@@ -18,7 +18,7 @@ info: Generated testoutput/src/js/__tests__/integration.js from template templat
 info: Generated testoutput/src/test/fixture/design.json from template templates/src/test/fixture/design.json._
 info: Generated testoutput/templates/map.json from template templates/templates/map.json._
 info: Generated testoutput/templates/.prettierrc._ from template templates/templates/.prettierrc._
-info: Generated testoutput/templates/.flowconfig_ from template templates/.flowconfig._
+info: Generated testoutput/.flowconfig._ from template templates/.flowconfig._
 info: Generated testoutput/webpack.config.js from template templates/webpack.config.js._
 info: Generated testoutput/src/js/index.js from template templates/src/js/index.js._
 info: Committed generated files
