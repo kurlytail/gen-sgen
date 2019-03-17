@@ -41,8 +41,8 @@
     "templates/.prettierrc._": {
         "template": "templates/.prettierrc._"
     },
-    ".flowconfig._": {
-        "template": ".flowconfig"
+    ".flowconfig": {
+        "template": ".flowconfig._"
     },
     "webpack.config.js": {
         "template": "webpack.config.js._"
