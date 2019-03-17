@@ -32,6 +32,9 @@ module.exports = {
             'babel-module': {
                 extensions: ['.js']
             }
+        },
+        flowtype: {
+            onlyFilesWithFlowAnnotation: true
         }
     }
 };

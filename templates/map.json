@@ -35,9 +35,6 @@
     "src/test/fixture/design.json": {
         "template": "src/test/fixture/design.json._"
     },
-    "scripts/sgen-<%=design.MasterDesign[0].name.replace('gen-', '')%>.sh": {
-        "template": "scripts/sgen.sh._"
-    },
     "templates/map.json": {
         "template": "templates/map.json._"
     },
@@ -46,5 +43,11 @@
     },
     "templates/.flowconfig_": {
         "template": ".flowconfig._"
+    },
+    "webpack.config.js": {
+        "template": "webpack.config.js._"
+    },
+    "src/js/index.js": {
+        "template": "src/js/index.js._"
     }
 }
