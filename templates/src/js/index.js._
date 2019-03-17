@@ -5,8 +5,7 @@
 import Path from 'path';
 // eslint-disable-next-line no-undef
 const requireFunc = typeof __webpack_require__ === 'function' ? __non_webpack_require__ : require;
-const baseModule = requireFunc.main.children.find(module => module.id.includes('gen-<%=genName%>/dist/<%=genName%>
-.min.js'));
+const baseModule = requireFunc.main.children.find(module => module.id.includes('gen-<%=genName%>/dist/<%=genName%>.min.js'));
 let basePath;
 
 if (!baseModule) {
