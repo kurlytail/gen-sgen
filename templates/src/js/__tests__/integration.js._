@@ -20,6 +20,7 @@ describe('# integration test', () => {
         output = execSync(
             'sgen -g `pwd`/dist/<%=genName%>.min.js -d src/test/fixture/design.json -o testoutput'
         ).toString();
+        output = output.replace(/info: Loaded generator .*<%=genName%>.min.js.*/, '');
         expect(output).toMatchSnapshot();
         output = execSync('npm install', { cwd: 'testoutput' }).toString();
         output = execSync('npm run lint', { cwd: 'testoutput' }).toString();

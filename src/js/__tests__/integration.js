@@ -14,6 +14,7 @@ describe('# integration test', () => {
     it('## should generate design and run sgen commands', () => {
         let output = execSync('npm run build').toString();
         output = execSync('sgen -g `pwd`/dist/sgen.min.js -d src/test/fixture/design.json -o testoutput').toString();
+        output = output.replace(/info: Loaded generator .*sgen.min.js.*/, '');
         expect(output).toMatchSnapshot();
         output = execSync('npm install', { cwd: 'testoutput' }).toString();
         output = execSync('npm run lint', { cwd: 'testoutput' }).toString();

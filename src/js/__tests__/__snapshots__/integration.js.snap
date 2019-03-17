@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`# integration test ## should generate design and run sgen commands 1`] = `
-"info: Loaded generator /Users/ashwin/pmgr/gen-sgen/dist/sgen.min.js@0.0.1
+"
 info: loading map templates/map.json
 info: Initializing git repository testoutput/.git
 info: Generated testoutput/.prettierrc from template templates/.prettierrc._
