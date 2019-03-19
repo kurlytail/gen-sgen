@@ -7,7 +7,7 @@
     "version": "0.0.1",
     "main": "dist/<%=genName%>.min.js",
     "devDependencies": {
-        "@kurlytail/gen-sgen": "1.1.3",
+        "@kurlytail/gen-sgen": "1.1.2",
         "@kurlytail/gen-log": "1.1.1",
         "babel-cli": "^6.26.0",
         "babel-core": "^6.26.0",
