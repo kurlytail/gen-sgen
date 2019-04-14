@@ -49,5 +49,8 @@
     },
     "src/js/index.js": {
         "template": "src/js/index.js._"
+    },
+    "renovate.json": {
+        "template": "renovate.json._"
     }
 }

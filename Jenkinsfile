@@ -3,10 +3,6 @@
 pipeline {
     agent none
 
-    triggers {
-        upstream(upstreamProjects: 'kurlytail/gen-lib/master', threshold: hudson.model.Result.SUCCESS)
-    }
-
     parameters {
         string(defaultValue: "1.2", description: 'Build version prefix', name: 'BUILD_VERSION_PREFIX')
         string(defaultValue: "", description: 'Build number offset', name: 'BUILDS_OFFSET')
@@ -56,7 +52,11 @@ pipeline {
                     ]
                     junit 'test-report.xml'
                     sh 'npm run build'
-                    sh 'npm publish'
+                    script {
+                        if (env['BUILDING_QA_CANDIDATE'] != 'false') {
+                            sh 'npm publish'
+                        }
+                    }
                     sh 'mkdir __npm_versions'
                     sh 'npm outdated > __npm_versions/index.html || true'
                     publishHTML target: [

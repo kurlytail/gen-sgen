@@ -21,6 +21,7 @@ info: Generated testoutput/templates/.prettierrc._ from template templates/templ
 info: Generated testoutput/.flowconfig from template templates/.flowconfig._
 info: Generated testoutput/webpack.config.js from template templates/webpack.config.js._
 info: Generated testoutput/src/js/index.js from template templates/src/js/index.js._
+info: Generated testoutput/renovate.json from template templates/renovate.json._
 info: Committed generated files
 info: Attempting to use branch master-sgen-generated
 info: Creating new branch master-sgen-generated
