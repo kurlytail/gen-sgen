@@ -1,4 +1,5 @@
 # Node.js
+
 # Build a general Node.js project with npm.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
@@ -15,7 +16,33 @@ steps:
     versionSpec: '10.x'
   displayName: 'Install Node.js'
 
-- script: |
-    npm install
-    npm run build
-  displayName: 'npm install and build'
+- task: Npm@1
+  inputs:
+    command: 'install'
+    customEndpoint: 'kurlytail-npm'
+  
+- task: Npm@1
+  inputs:
+    command: 'custom'
+    customCommand: 'build'
+
+- task: Npm@1
+  inputs:
+    command: 'custom'
+    customCommand: 'lint'
+
+- task: Npm@1
+  inputs:
+    command: 'custom'
+    customCommand: 'test'
+
+- task: PublishTestResults@1
+  condition: succeededOrFailed()
+  inputs:
+    testRunner: JUnit
+    testResultsFiles: 'test-report.xml'
+
+- task: Npm@1
+  inputs:
+    command: 'publish'
+    publishEndpoint: 'kurlytail-npm'
