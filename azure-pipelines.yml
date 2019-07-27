@@ -11,6 +11,8 @@ pool:
 
 steps:
 - task: npmAuthenticate@0
+  inputs:
+    workingFile: registry.npmrc
   displayName: 'Authenticate with npmjs'
 
 - task: NodeTool@0
