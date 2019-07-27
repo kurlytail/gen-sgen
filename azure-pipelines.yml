@@ -10,6 +10,11 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
+- task: npmAuthenticate@0
+  inputs:
+    #workingFile: # Optional
+    #customEndpoint: # Optional
+    
 - task: NodeTool@0
   inputs:
     versionSpec: '10.x'
