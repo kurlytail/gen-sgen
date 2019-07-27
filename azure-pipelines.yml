@@ -28,5 +28,16 @@ steps:
 
 - task: Npm@1
   inputs:
+    command: 'custom'
+    customCommand: 'test'
+
+- task: PublishTestResults@1
+  condition: succeededOrFailed()
+  inputs:
+    testRunner: JUnit
+    testResultsFiles: 'test-report.xml'
+
+- task: Npm@1
+  inputs:
     command: 'publish'
     publishEndpoint: 'kurlytail-npm'
