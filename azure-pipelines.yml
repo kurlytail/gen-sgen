@@ -29,6 +29,11 @@ steps:
 - task: Npm@1
   inputs:
     command: 'custom'
+    customCommand: 'lint'
+
+- task: Npm@1
+  inputs:
+    command: 'custom'
     customCommand: 'test'
 
 - task: PublishTestResults@1
