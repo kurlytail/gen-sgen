@@ -20,6 +20,7 @@ steps:
   inputs:
     command: 'install'
     customEndpoint: 'kurlytail-npm'
+    customRegistry: 'useNpmrc'
   
 - task: Npm@1
   inputs:
