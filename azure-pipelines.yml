@@ -11,10 +11,8 @@ pool:
 
 steps:
 - task: npmAuthenticate@0
-  inputs:
-    #workingFile: # Optional
-    #customEndpoint: # Optional
-    
+  displayName: 'Authenticate with npmjs'
+
 - task: NodeTool@0
   inputs:
     versionSpec: '10.x'
