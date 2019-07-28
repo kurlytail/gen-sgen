@@ -36,6 +36,7 @@ steps:
     command: 'custom'
     customCommand: 'test'
 
+
 - task: PublishTestResults@1
   condition: succeededOrFailed()
   inputs:
