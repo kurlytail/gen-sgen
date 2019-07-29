@@ -20,6 +20,13 @@ describe('# integration test', () => {
         let output = execSync('npm run build').toString();
         output = execSync('sgen -g `pwd`/dist/sgen.min.js -d src/test/fixture/design.json -o testoutput').toString();
         output = output.replace(/info: Loaded generator .*sgen.min.js.*/, '');
+        output = output.replace(
+            /warn: Please cherrypick changes from master-sgen-generated from .*/,
+            ''
+        ).replace(
+            /info: git cherry-pick .*/,
+            ''
+        );
         expect(output).toMatchSnapshot();
         execSync('npm install', { cwd: 'testoutput', stdio: 'inherit' });
         execSync('npm run lint', { cwd: 'testoutput', stdio: 'inherit' });
