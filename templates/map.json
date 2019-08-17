@@ -52,5 +52,14 @@
     },
     "renovate.json": {
         "template": "renovate.json._"
+    },
+    ".mergify.yml": {
+        "template": ".mergify.yml._"
+    },
+    ".npmrc": {
+        "template": ".npmrc._"
+    },
+    "azure-pipelines.yml": {
+        "template": "azure-pipelines.yml._"
     }
 }

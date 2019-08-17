@@ -27,6 +27,9 @@ info: Generated testoutput/.flowconfig from template templates/.flowconfig._
 info: Generated testoutput/webpack.config.js from template templates/webpack.config.js._
 info: Generated testoutput/src/js/index.js from template templates/src/js/index.js._
 info: Generated testoutput/renovate.json from template templates/renovate.json._
+info: Generated testoutput/.mergify.yml from template templates/.mergify.yml._
+info: Generated testoutput/.npmrc from template templates/.npmrc._
+info: Generated testoutput/azure-pipelines.yml from template templates/azure-pipelines.yml._
 warn: Checkout branch master-sgen-generated
 info: Committed generated files
 warn: Checkout branch master
