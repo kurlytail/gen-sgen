@@ -67,6 +67,7 @@
         "clean": "rimraf ./docs ./dist ./coverage test-report.xml"
     },
     "dependencies": {
-        "@kurlytail/gen-lib": "1.2.339"
+        "@kurlytail/gen-lib": "1.2.339",
+        "yaml": "1.6.0"
     }
 }
