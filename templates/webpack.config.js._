@@ -64,7 +64,9 @@ const config = {
             }
         ]
     },
-
+    optimization: {
+        minimize: false
+    },
     target: 'node'
 };
 
