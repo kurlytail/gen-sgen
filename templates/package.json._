@@ -65,7 +65,7 @@
     "scripts": {
         "docs": "jsdoc -c jsdoc.json && npx opn-cli ./docs/index.html",
         "gen": "sgen -g sgen -g log -d design.json",
-        "build": "NODE_ENV=\"debug\" webpack --display-modules --display-reasons",
+        "build": "NODE_ENV=\"debug\" webpack",
         "lint": "eslint src",
         "test": "jest tests",
         "test:watch": "jest --watch tests",
