@@ -64,7 +64,9 @@ const config = {
             }
         ]
     },
-
+    optimization: {
+        minimize: false
+    },
     target: 'node'
 };
 
@@ -82,7 +84,7 @@ if (showConfigOnly) {
 const configLib = Object.assign({}, config, {
     externals: [nodeExternals()],
     entry: {
-        '<%=design.MasterDesign[0].name.replace('gen-', '')%>': './src/js/index.js'
+        '<%=design.project.name.replace('gen-', '')%>': './src/js/index.js'
     }
 });
 

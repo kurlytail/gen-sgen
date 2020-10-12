@@ -1,6 +1,6 @@
 
 <%
-    const genName = design.MasterDesign[0].name.replace('gen-', '');
+    const genName = design.project.name.replace('gen-', '');
 %>
 import Path from 'path';
 // eslint-disable-next-line no-undef
@@ -19,7 +19,7 @@ basePath = Path.relative(process.cwd(), basePath) || '.';
 const options = {
     // eslint-disable-next-line no-undef
     version: app.version,
-    map: [`${basePath}/templates/map.json`]
+    map: [`${basePath}/templates/map.yml`]
 };
 
 export default options;

@@ -2,7 +2,7 @@
 
 exports[`# integration test ## should generate design and run sgen commands 1`] = `
 "
-info: loading map templates/map.json
+info: loading map templates/map.yml
 info: Opening git repository testoutput/.git
 warn: Ignoring error Error: cannot stash changes - there is nothing to stash.
 info: Attempting to use branch master-sgen-generated
@@ -16,12 +16,11 @@ info: Generated testoutput/.eslintignore from template templates/.eslintignore._
 info: Generated testoutput/.eslintrc.js from template templates/.eslintrc.js._
 info: Generated testoutput/.gitignore from template templates/.gitignore._
 info: Generated testoutput/.npmignore from template templates/.npmignore._
-info: Generated testoutput/Jenkinsfile from template templates/Jenkinsfile._
 info: Generated testoutput/package.json from template templates/package.json._
 info: Generated testoutput/README.md from template templates/README.md._
 info: Generated testoutput/src/js/__tests__/integration.js from template templates/src/js/__tests__/integration.js._
-info: Generated testoutput/src/test/fixture/design.json from template templates/src/test/fixture/design.json._
-info: Generated testoutput/templates/map.json from template templates/templates/map.json._
+info: Generated testoutput/src/test/fixture/design.yml from template templates/src/test/fixture/design.yml._
+info: Generated testoutput/templates/map.yml from template templates/templates/map.yml._
 info: Generated testoutput/templates/.prettierrc._ from template templates/templates/.prettierrc._
 info: Generated testoutput/.flowconfig from template templates/.flowconfig._
 info: Generated testoutput/webpack.config.js from template templates/webpack.config.js._

@@ -1,0 +1,40 @@
+.prettierrc:
+    template: .prettierrc._
+.babelrc:
+    template: .babelrc._
+.editorconfig:
+    template: .editorconfig._
+.eslintignore:
+    template: .eslintignore._
+.eslintrc.js:
+    template: .eslintrc.js._
+.gitignore:
+    template: .gitignore._
+.npmignore:
+    template: .npmignore._
+package.json:
+    template: package.json._
+README.md:
+    template: README.md._
+src/js/__tests__/integration.js:
+    template: src/js/__tests__/integration.js._
+src/test/fixture/design.yml:
+    template: src/test/fixture/design.yml._
+templates/map.yml:
+    template: templates/map.yml._
+templates/.prettierrc._:
+    template: templates/.prettierrc._
+.flowconfig:
+    template: .flowconfig._
+webpack.config.js:
+    template: webpack.config.js._
+src/js/index.js:
+    template: src/js/index.js._
+renovate.json:
+    template: renovate.json._
+.mergify.yml:
+    template: .mergify.yml._
+.npmrc:
+    template: .npmrc._
+azure-pipelines.yml:
+    template: azure-pipelines.yml._
