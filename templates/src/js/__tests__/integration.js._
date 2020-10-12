@@ -1,7 +1,7 @@
 import { execSync } from 'child_process';
 
 <%
-    var genName = design.MasterDesign[0].name.replace('gen-', '');
+    var genName = design.project.name.replace('gen-', '');
 %>
 
 describe('# integration test', () => {
@@ -17,7 +17,7 @@ describe('# integration test', () => {
     it('## should generate design and run <%=genName%> commands', () => {
         let output = execSync('npm run build').toString();
         output = execSync(
-            'sgen -g `pwd`/dist/<%=genName%>.min.js -d src/test/fixture/design.json -o testoutput'
+            'sgen -g `pwd`/dist/<%=genName%>.min.js -d src/test/fixture/design.yml -o testoutput'
         ).toString();
         output = output.replace(/info: Loaded generator .*<%=genName%>.min.js.*/, '');
         output = output.replace(

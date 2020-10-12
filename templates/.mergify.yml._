@@ -1,7 +1,7 @@
 pull_request_rules:
   - name: automatic merge on CI success and review
     conditions:
-      - status-success=kurlytail.<%=design.MasterDesign[0].name%>
+      - status-success=kurlytail.<%=design.project.name%>
     actions:
       merge:
         method: merge

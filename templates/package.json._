@@ -1,5 +1,5 @@
 <%
-    var genName = design.MasterDesign[0].name.replace('gen-', '');
+    var genName = design.project.name.replace('gen-', '');
 %>
 {
     "name": "@kurlytail/gen-<%=genName%>",
@@ -71,5 +71,9 @@
         "test:watch": "jest --watch tests",
         "test:ci": "jest --ci tests",
         "clean": "rimraf ./docs ./dist ./coverage test-report.xml"
+    },
+    "dependencies": {
+        "@kurlytail/gen-lib": "^2.1.1",
+        "yaml": "1.8.3"
     }
 }
